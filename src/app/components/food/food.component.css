@@ -1,0 +1,81 @@
+/* 
+Color Name: White
+HEX Code: #FFFFFF
+RGB: rgb(255, 255, 255)
+CMYK: 0, 0, 0, 0
+
+Color Name: Alto - 
+HEX Code: #CECECE
+RGB: rgb(206, 206, 206)
+CMYK: 0, 0, 0, 19
+
+Color Name: Tango - orange
+HEX Code: #F48322
+RGB: rgb(244, 131, 34)
+CMYK: 0, 46, 86, 4
+
+#F53F1F - red
+Color Name: Pomegranate
+HEX Code: #F53F1F
+RGB: rgb(245, 63, 31)
+CMYK: 0, 74, 87, 4
+
+#000000 - black 
+Color Name: Black
+HEX Code: #000000
+RGB: rgb(0, 0, 0)
+CMYK: NaN, NaN, NaN, 100
+C = 0, M = 0, Y = 0, K = 100 - black
+C = 60, M = 60, Y = 60, K = 100 - rich black
+*/
+
+ul {
+    list-style-type: none;
+}
+
+#title {
+    border-radius: 2px;
+}
+
+/* .type-2 {
+    background:radial-gradient(circle at top left,transparent 30px,#32CBFF 0) top left,
+      radial-gradient(circle at top right,transparent 30px,#32CBFF 0) top right,
+      radial-gradient(circle at bottom left,transparent 30px,#32CBFF 0) bottom left,
+      radial-gradient(circle at bottom right,transparent 30px,#32CBFF 0) bottom right;
+  background-size:50% 50%;
+  background-repeat:no-repeat;
+} */
+
+
+.lists li div {
+    display: inline-flex;
+    margin-bottom: 0.5rem;
+}
+.category {
+
+}
+
+.menu {
+    color: #FFFFFF;
+}
+
+.title {
+    
+    margin: auto;
+    border: 4px solid #F48322;
+    border-radius: 2px;
+    padding: 0.25rem 0;
+}
+
+.item {
+    margin-top: 0.5rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+.dollar {
+    margin-right: 0.2rem;
+    font-size: 0.85rem;
+}

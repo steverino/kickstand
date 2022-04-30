@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Gobold";
+    src: local("Gobold"), url(./assets/fonts/GoboldRegular.otf) format("opentype");
+}
+
+body {
+    background-color: #CECECE;    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Gobold';
+    font-weight: 600;
+    border: 4px solid #F48322;
+    width: 20%;
+    margin: 0.5rem auto;
+}
+
+.navbar {
+    
+    color: #fff;
+    background-color: black;
+    height: 50px;
+    
+}

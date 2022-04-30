@@ -1,0 +1,11 @@
+.container {
+    padding-top: 1rem;
+    background-color: #000;
+    font-family:'Gobold';
+    text-align: center;
+    justify-content: center;
+    margin: 1rem auto;
+    border-radius: 20px;
+    
+    
+}

@@ -1,0 +1,20 @@
+
+ul {
+    list-style-type: none;
+    display:inline-flex;
+    margin: auto;
+    
+}
+
+li {
+    vertical-align: middle;
+    padding-bottom: .25rem;
+    margin-right: 2rem;
+}
+
+li a{
+    text-align:center;
+    text-decoration: none; 
+    color: #fff;
+}
+
