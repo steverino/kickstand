@@ -4,8 +4,8 @@
     <div class="row menu" >
       <div class="col-md-6 category">
         <h2 class="title type-2">Appetizers</h2>
-        <ul class="lists">
-          <li *ngFor="let menu of menus">
+        <ul class="lists" *ngFor="let menu of menus">
+          <li *ngIf="menu.category === 'appetizer'">
             <div class="col-md-10 item">{{ menu.item }}</div>
             <div class="col-md-2 price"><span class="dollar"> $</span> {{ menu.price }}</div>
             <div class="col-md-12 description">{{ menu.description }}</div>
@@ -13,70 +13,39 @@
         </ul>
   
         <h2 class="title">Main Dishes</h2>
-        <ul class="lists">
-          <li>
-            Impossible Melt V<br />Quarter pound impossible patty,american
-            cheese,caramlized onions,grain toast with special sauce <br />$12
-          </li>
-          <li>
-            Wake Up Call V<br />Quarter pounder beyond meat patty, plant based egg
-            american cheese,mayo,brioche<br />$12
-          </li>
-          <li>
-            The Original V<br />Quarter pound impossible patty, gouda
-            cheese,lettuce,red onion,pickles,special sauce<br />$12
-          </li>
-          <li>
-            El Matador<br />Grass fed beef, queso fresco, green leaf, guacamole,
-            pico de gallo<br />$12
-          </li>
-          <li>
-            Standard<br />Grass fed beef,colby cheese,caramlized onions,pickles,
-            special sauce<br />$12
-          </li>
-          <li>
-            Flamin' Bacon<br />Grass fed beef,colby cheese,natural smoke
-            bacon,haberno bacon,brioche bun<br />$13
+        <ul class="lists" *ngFor="let menu of menus">
+          <li *ngIf="menu.category === 'main-dish'">
+            <div class="col-md-10 item">{{ menu.item }}</div>
+            <div class="col-md-2 price"><span class="dollar"> $</span> {{ menu.price }}</div>
+            <div class="col-md-12 description">{{ menu.description }}</div>
           </li>
         </ul>
       </div>
       <div class="col-md-6 menu">
         <h2 class="title">Sides</h2>
-        <ul class="lists">
-          <li>Baby Green Salad V GF<br />$5</li>
-          <li>Sweet Potato Fries<br />$4</li>
-          <li>Waffle,Regular,Curly Fries<br />$3</li>
-          <li>Chips and Guac<br />$6</li>
-          <li>Onion Rings<br />$4</li>
-          <li>Dill Pickles<br />$3</li>
+        <ul class="lists" *ngFor="let menu of menus">
+          <li *ngIf="menu.category === 'sides'">
+            <div class="col-md-10 item">{{ menu.item }}</div>
+            <div class="col-md-2 price"><span class="dollar"> $</span> {{ menu.price }}</div>
+            <div class="col-md-12 description">{{ menu.description }}</div>
+          </li>
         </ul>
   
         <h2 class="title">Beverages</h2>
-        <ul class="lists">
-          <li>
-            Organic Unsweetened Teas V GF<br />Classic, peach, strawberry
-            hibiscus<br />$3
-          </li>
-          <li>Organic Lemonade<br />$3</li>
-          <li>
-            Soda<br />
-            Cola,Diet Cola,Ginger-ale,rootbeer<br />$3
+        <ul class="lists" *ngFor="let menu of menus">
+          <li *ngIf="menu.category === 'beverages'">
+            <div class="col-md-10 item">{{ menu.item }}</div>
+            <div class="col-md-2 price"><span class="dollar"> $</span> {{ menu.price }}</div>
+            <div class="col-md-12 description">{{ menu.description }}</div>
           </li>
         </ul>
   
         <h2 class="title">Desserts</h2>
-        <ul class="lists">
-          <li>Flourless Chocolate Cake<br />$4</li>
-          <li>
-            Milkshake<br />strawberry,chocolate,vanilla,cookies and cream<br />$5
-          </li>
-          <li>
-            Smores Sundae<br />Marshmallow,graham crackers,chocolate sauce,
-            vanilla icecream<br />$6
-          </li>
-          <li>
-            Icecream<br />strawberry,chocolate,vanilla, cookies and cream, lime
-            rasberry sorbet (V)<br />$4
+        <ul class="lists" *ngFor="let menu of menus">
+          <li *ngIf="menu.category === 'desserts'">
+            <div class="col-md-10 item">{{ menu.item }}</div>
+            <div class="col-md-2 price"><span class="dollar"> $</span> {{ menu.price }}</div>
+            <div class="col-md-12 description">{{ menu.description }}</div>
           </li>
         </ul>
       </div>

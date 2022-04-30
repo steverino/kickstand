@@ -3,4 +3,5 @@ export interface Menu {
     item: string;
     description: string;
     price: number;
+    category: string;
   }
