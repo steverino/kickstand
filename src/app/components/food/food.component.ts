@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { MENU } from 'src/app/mock-menu';
-import { Menu } from '../../menu';
+
 
 @Component({
   selector: 'app-food',

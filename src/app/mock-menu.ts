@@ -1,12 +1,14 @@
 import { Menu } from './menu';
 
+const category = 'appetizer';
+
 export const MENU: Menu[] = [
     {
         id: 11,
         item: 'Chicken Fingers',
         description: 'Buttermilk-fried organic chicken breast',
         price: 5,
-        category: 'appetizer',
+        category: category,
     },
     {
         id: 12,
@@ -28,5 +30,12 @@ export const MENU: Menu[] = [
         description: 'Baby greens, quinoa, red pepper, hummus,red onions, grape tomatos,lemon',
         price: 5,
         category: 'appetizer',
+    },
+    {
+        id: 15,
+        item: 'Cali Fresh Salad V, GF',
+        description: 'Baby greens, quinoa, red pepper, hummus,red onions, grape tomatos,lemon',
+        price: 5,
+        category: 'main-dish',
     },
 ]
